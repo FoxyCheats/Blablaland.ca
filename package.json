@@ -1,0 +1,28 @@
+{
+  "name": "Blablaland_ca_Launcher",
+  "version": "1.0.0",
+  "description": "A desktop application for Blablaland with built-in Flash Player.",
+  "homepage": "https://blablaland.ca/",
+  "bugs": {
+    "url": "https://github.com/FoxyCheats"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FoxyCheats/Blablaland.online"
+  },
+  "license": "BBL.O",
+  "author": "FoxyCheats",
+  "scripts": {
+    "package": "electron-builder --publish never",
+    "release": "electron-builder --publish always",
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron-updater": "^5.3.0",
+    "electron-window-state": "^5.0.3"
+  },
+  "devDependencies": {
+    "electron": "^11.5.0",
+    "electron-builder": "^23.6.0"
+  }
+}
